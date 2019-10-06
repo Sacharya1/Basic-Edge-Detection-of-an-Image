@@ -1,0 +1,30 @@
+Z36.pgm Z32_cn.pgm CANNY 55 75 150 190 110
+Z32_cn.pgm Z32_cn1.pgm CANNY1 220 270 42 110 160
+Z32_cn1.pgm Z32_cn2.pgm CANNY2 305 175 15 95 135
+Z36.ppm Sampad_edgec.ppm Edge_color 10 10 250 250 
+Sampad_edgec.ppm Sampad_edgec1.ppm Edge_color1 223 275 310 260 
+Sampad_edgec1.ppm Z36_edgec2.ppm Edge_color2 305 173 131 94 
+Z36.pgm Z32_tds.pgm 2D_Smoothing 50 70 150 140 9
+Z32_tds.pgm Z32_tds1.pgm 2D_Smoothing1 225 270 60 100 5
+Z32_tds1.pgm Z32_tds2.pgm 2D_Smoothing2 300 170 73 90 9
+Z36.pgm Z32_ods.pgm 1D_Smoothing 50 70 150 200 9
+Z32_ods.pgm Z32_ods1.pgm 1D_Smoothing1 225 270 70 100 5
+Z32_ods1.pgm Z32_ods2.pgm 1D_Smoothing2 300 170 130 90 9
+Z36.pgm Z32_eps.pgm Edge_Preserving 50 70 150 200 11 7
+Z32_eps.pgm Z32_eps1.pgm Edge_Preserving1 225 270 10 100 7 2
+Z32_eps1.pgm Z32_eps2.pgm Edge_Preserving2 300 170 130 90 7 5
+Z36.pgm Z32_sobel.pgm Sobel 55 75 150 190 36 45
+Z32_sobel.pgm Z32_sobel1.pgm Sobel1 220 270 42 110 70 45
+Z32_sobel1.pgm Z32_sobel2.pgm Sobel2 305 175 15 95 60 45
+Z36.pgm Z32_sobelt.pgm Sobelt 55 75 150 190 90 45
+Z32_sobelt.pgm Z32_sobelt1.pgm Sobelt1 220 270 42 110 100 45
+Z32_sobelt1.pgm Z32_sobelt2.pgm Sobelt2 305 175 15 95 160 45
+Z36.pgm Z32_sobelth.pgm Sobelth 55 75 150 190 36 45
+Z32_sobelth.pgm Z32_sobelth1.pgm Sobelth1 220 270 42 110 70 45
+Z32_sobelth1.pgm Z32_sobelth2.pgm Sobelth2 305 175 15 95 60 45
+Z36.pgm Z32_sf.pgm SOBEL_Funtion 55 75 150 190 110
+Z32_sf.pgm Z32_sf1.pgm SOBEL_Funtion1 220 270 42 110 160
+Z32_sf1.pgm Z32_sf2.pgm SOBEL_Funtion2 305 175 15 95 135
+Z36.pgm Z32_heq.pgm Histogram_Eq 55 75 150 190 110 45
+Z32_heq.pgm Z32_heq1.pgm Histogram_Eq1 220 270 42 110 160 45
+Z32_heq1.pgm Z32_heq2.pgm Histogram_Eq2 305 175 15 95 135 45
